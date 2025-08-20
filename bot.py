@@ -2,7 +2,7 @@ import pandas as pd
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 # ضع التوكن الجديد هنا 👇
-TOKEN = "7216256882:AAEDFACNn9HT8VzLWuhKPsfxnbEteiqoe64"
+TOKEN = "429620974:AAEXymUdVhTYSYiWJ_lMhAULtitVypoQrq8"
 
 # تحميل ملف الدرجات (تأكد أن اسم الملف مطابق الموجود بجانب bot.py)
 grades = pd.read_excel("results.xlsx")
